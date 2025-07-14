@@ -5,10 +5,7 @@
 
 ## 1.1 Librairies<a id="2.1"></a>
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import cvxpy as cp
+numpy-pandas-matplotlib-cvxpy
 
 ## 1.2 Fonction pour calculer portefeuille optimal
 Minimiser la variance pour un rendement cible
@@ -82,7 +79,22 @@ La frontière efficiente correspond à l’ensemble des portefeuilles optimaux p
  . Elle représente le compromis optimal entre rendement espéré et risque.
 
 
+## 1.3 Data
 
+Simuler un jeu de données financier
+
+
+## 1.4 Portefeuille optimal et Bootstrap
+
+
+# **2. Estimation de la frontière efficiente resamplée**
+
+
+L’idée : on calcule la moyenne des portefeuilles optimaux obtenus sur plusieurs échantillons bootstrap — cela stabilise la frontière et limite l’impact des erreurs d’estimation.
+
+# **3. Estimation bootstrap de la frontière efficiente complète**
+
+Ici, on génère plusieurs points de rendement cible et on applique la procédure bootstrap sur chacun pour estimer une frontière efficiente "resamplée".
 
 
 
